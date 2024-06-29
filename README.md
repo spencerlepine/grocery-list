@@ -1,10 +1,12 @@
-# [QuickCart](https://grocery-client-sl.herokuapp.com/) &middot; [![Build Status](https://github.com/spencerlepine/quickcart/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/spencerlepine/quickcart/actions/workflows/main.yml) [![Coverage Status](https://coveralls.io/repos/github/spencerlepine/quickcart/badge.svg?branch=master)](https://coveralls.io/github/spencerlepine/quickcart?branch=master)
+# [QuickCart](https://grocery-client-sl.herokuapp.com/) [![Build Status](https://github.com/spencerlepine/quickcart/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/spencerlepine/quickcart/actions/workflows/main.yml) ![Inactive Badge](./whitepaper/images/inactive.svg)
 
 Create and store weekly grocery shopping lists. Find real products via search or barcode scan, view nutrition facts, or upload your own.
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Firebase](https://img.shields.io/badge/firebase-orange.svg?style=for-the-badge&logo=firebase&logoColor=white) ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
 
 ![Demo GIF](./client/src/assets/images/demo.gif)
+
+## 🎥 Demo Video + Project Walk-through
 
 [![Youtube Video](./whitepaper/images/THUMBNAIL-smaller.png)](https://www.youtube.com/watch?v=2YrizGT_2xA)
 
@@ -29,7 +31,7 @@ A grocery product catalog to assist budgeting and managing a shopping list store
 
 ## 🏗️ Architecture
 
-![Architecture](./whitepaper/images/architecture.png)
+![Architecture](./whitepaper/images/quickcart-architecture-diagram.jpg)
 
 ## 🌟 Features:
 - Browse grocery products records served from the Firestore database
@@ -49,6 +51,10 @@ A grocery product catalog to assist budgeting and managing a shopping list store
 ![Customize Feature Screenshot](./client/src/assets/images/customize-product.png)
 ![Saved Feature Screenshot](./client/src/assets/images/saved-screenshot.png)
 
+## Deployment
+
+![Architecture](./whitepaper/images/quickcart-deployment-diagram.jpg)
+
 ## ⚙️ Local Development
 
 ```sh
@@ -56,8 +62,3 @@ $ cp .env.sample .env
 $ npm install
 $ npm run dev
 ```
-
-## 🌐 Links
-- Demo website: (DEPRECATED) https://grocery-client-sl.herokuapp.com/
-- Demo video: [Youtube](https://www.youtube.com/watch?v=2YrizGT_2xA)
-- Blog post: https://www.spencerlepine.com/portfolio/quickcart
